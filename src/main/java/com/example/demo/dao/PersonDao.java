@@ -6,7 +6,7 @@ import com.sun.xml.internal.ws.api.streaming.XMLStreamWriterFactory;
 
 import java.util.UUID;
 
-public interface PersonDao {
+public interface  PersonDao {
 
     int insertPerson(UUID id, Person person);
 
